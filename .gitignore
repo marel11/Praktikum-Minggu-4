@@ -1,0 +1,16 @@
+# Lingkungan virtual lokal
+.venv/
+venv/
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Notebook
+.ipynb_checkpoints/
+# Data rahasia dan file OS
+.env
+.env.*
+!.env.example
+.DS_Store
+# Editor local state
+.vscode/*.code-workspace
